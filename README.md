@@ -10,5 +10,6 @@
 
 使用channels路徑來取得，需帶上"id"、"key"、"part"等查詢參數。
 id 代表頻道 ID；key 代表我們的 API Key；part 代表想取得的資源屬性。
-![image](https://user-images.githubusercontent.com/114973441/198532063-b3c95242-051c-4183-80e6-2321a0dbde71.png)
+
+![image](https://user-images.githubusercontent.com/114973441/198532189-0a89a7a7-4e60-4f92-91bf-60bac13a5b51.png)
 
