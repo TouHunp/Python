@@ -6,6 +6,9 @@
 透過YouTube Data API : https://developers.google.com/youtube/v3/docs
 在官方API文件內可以查詢各種資源及各種請求方法。
 
-![image](https://user-images.githubusercontent.com/114973441/198531804-c145d289-3f3a-40aa-ac70-9ea7e30582e3.png)
+![image](https://user-images.githubusercontent.com/114973441/198531939-c3340f00-dd57-499b-98f4-384a33b48f45.png)
 
+使用channels路徑來取得，需帶上"id"、"key"、"part"等查詢參數。
+id 代表頻道 ID；key 代表我們的 API Key；part 代表想取得的資源屬性。
+![image](https://user-images.githubusercontent.com/114973441/198532063-b3c95242-051c-4183-80e6-2321a0dbde71.png)
 
