@@ -1,8 +1,15 @@
-node {  
-   stage('Stage 1'){
-       echo 'Hello World 1'
-   }
-   stage('Stage 2'){
-       echo 'Hello World 2'
-   }
+pipeline {
+    agent any
+    stages{  
+   stage('Version'){
+        steps{
+        sh 'python3 --version'
+            }
+        }
+   stage('AI'){
+        steps{
+        sh 'python3 AI-youtube.py'
+            }
+        }
+    }
 }
