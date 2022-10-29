@@ -3,12 +3,12 @@ pipeline {
     stages{  
    stage('Version'){
         steps{
-        sh 'python3 --version'
+        sh 'python --version'
             }
         }
    stage('AI'){
         steps{
-        sh 'python3 AI-youtube.py'
+        sh 'python AI-youtube.py'
             }
         }
     }
