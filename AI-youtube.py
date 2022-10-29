@@ -134,7 +134,7 @@ algorithm = GA(
 
 class trade_problem(Problem):
     def __init__(self):
-        super().__init__(n_var=20)
+        super().__init__(n_var=5)
 
     def _evaluate(self, x, out, *args, **kwargs):
         population = x.astype(int)
