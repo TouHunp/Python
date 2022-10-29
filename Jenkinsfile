@@ -8,11 +8,7 @@ node {
         sh 'python --version'
             }
         }
-   stage('AI'){
-        steps{
-        sh 'python test.py'
-            }
-        }
+
 }
 def cmd_exec(command) {
     return bat(returnStdout: true, script: "${command}").trim()
