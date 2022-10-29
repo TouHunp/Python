@@ -10,7 +10,7 @@ node {
         }
    stage('AI'){
         steps{
-        sh 'python AI-youtube.py'
+        sh 'python test.py'
             }
         }
 }
